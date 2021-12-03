@@ -1,0 +1,94 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+  background: #3c424a;
+  min-height: 510px;
+}
+
+/* App Styles */
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  padding: 30px 0;
+  background: #e55c8a;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Form Styles */
+
+form {
+  height: 40px;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+  height: 100%;
+}
+
+input {
+  width: 80%;
+  padding: 0 18px;
+  background: #343a40;
+  color: #f9f9f9;
+  border: 1px solid #33383e;
+}
+
+input::placeholder {
+  color: #696f77;
+}
+
+button {
+  width: 20%;
+  background: #f06292;
+  color: #f9f9f9;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border: 1px solid #3c424a;
+  cursor: pointer;
+  transition: all 200ms;
+}
+
+button:hover {
+  background: #cc4b76;
+}
+
+/* Todo Styles */
+
+.todo {
+  margin: 14px 0 0 0;
+  width: 100%;
+  background: #343a40;
+  color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px;
+}
+
+i {
+  cursor: pointer;
+}
+
+/* Media Queries */
+
+@media (max-width: 663px) {
+  .App {
+    padding: 30px 16px;
+    align-items: center;
+  }
+}
